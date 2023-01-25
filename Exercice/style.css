@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#click {
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes expand {
+    from {
+      transform: scale(0);
+      opacity: 0;
+      background: #5470B0;
+    }
+  }
